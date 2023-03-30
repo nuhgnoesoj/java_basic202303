@@ -18,4 +18,4 @@ const 사과
 
 4. 깃허브 연동
 - 파일 -> 설정 -> 버전관리 -> github 계정 등록
-- 하단부 터미널 열고 git rm -r --cached
+- 하단부 터미널 열고 $ git rm -r --cached 입력
