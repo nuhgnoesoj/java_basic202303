@@ -18,4 +18,9 @@ public class CookBook extends Book {
     public void setCoupon(boolean coupon) {
         this.coupon = coupon;
     }
+
+    @Override
+    public String info() {
+        return String.format("# 분류: 요리책, %s, 쿠폰유무: %s", super.info(), this.coupon ? "있음" : "없음");
+    }
 }

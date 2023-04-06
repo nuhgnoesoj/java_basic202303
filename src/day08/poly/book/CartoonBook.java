@@ -18,4 +18,9 @@ public class CartoonBook extends Book {
     public void setAccessAge(int accessAge) {
         this.accessAge = accessAge;
     }
+
+    @Override
+    public String info() {
+        return String.format("# 분류: 만화책, %s, 연령제한: %d세", super.info(), accessAge);
+    }
 }
