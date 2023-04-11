@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="caadc6eb-34cf-4960-afec-75da45206162" name="Changes" comment="추상클래스 &amp; 인터페이스 &amp; 가수관리프로그램">
+    <list default="true" id="caadc6eb-34cf-4960-afec-75da45206162" name="Changes" comment="0407 day10 &amp; friends">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day05/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/member/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day05/member/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/member/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day10/collection/song/Artist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day10/collection/song/Artist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day10/collection/song/ArtistRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day10/collection/song/ArtistRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day10/collection/song/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day10/collection/song/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,69 +53,70 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="day11.api.obj" />
       <recent name="day08.poly" />
       <recent name="member" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.song.Main">
+  <component name="RunManager" selected="애플리케이션.FileWriterExample">
+    <configuration name="FileExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day11.io.file.FileExample" />
+      <module name="java_basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day11.io.file.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileInputExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day11.io.stream.FileInputExample" />
+      <module name="java_basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day11.io.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileOutputExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day11.io.stream.FileOutputExample" />
+      <module name="java_basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day11.io.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileWriterExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day11.io.rw.FileWriterExample" />
+      <module name="java_basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day11.io.rw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day09.quiz.Main" />
+      <option name="MAIN_CLASS_NAME" value="day05.member.Main" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day09.quiz.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day08.poly.book.Run" />
-      <module name="java_basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day08.poly.book.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="day09.abs.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day09.abs.Main" />
-      <module name="java_basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day09.abs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="day09.song.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day09.song.Main" />
-      <module name="java_basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day09.song.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="song.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="song.Main" />
-      <module name="java_basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="song.*" />
+          <option name="PATTERN" value="day05.member.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.song.Main" />
-        <item itemvalue="애플리케이션.day09.song.Main" />
+        <item itemvalue="애플리케이션.FileWriterExample" />
         <item itemvalue="애플리케이션.Main" />
-        <item itemvalue="애플리케이션.day09.abs.Main" />
-        <item itemvalue="애플리케이션.Run" />
+        <item itemvalue="애플리케이션.FileInputExample" />
+        <item itemvalue="애플리케이션.FileOutputExample" />
+        <item itemvalue="애플리케이션.FileExample" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680776454355</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="0407 day10 &amp; friends">
+      <created>1681086426526</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1681086426526</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,7 +229,8 @@
     <MESSAGE value="다형성 &amp; 상속 &amp; 오버라이딩 &amp; static" />
     <MESSAGE value="다형성 &amp; 도서관리 프로그램" />
     <MESSAGE value="추상클래스 &amp; 인터페이스 &amp; 가수관리프로그램" />
-    <option name="LAST_COMMIT_MESSAGE" value="추상클래스 &amp; 인터페이스 &amp; 가수관리프로그램" />
+    <MESSAGE value="0407 day10 &amp; friends" />
+    <option name="LAST_COMMIT_MESSAGE" value="0407 day10 &amp; friends" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
