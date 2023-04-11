@@ -1,8 +1,11 @@
 package day04;
 
+import day12.inner.AddCalculator;
+
 // 댄서의 설계도
 // 설계도에는 main을 만들지 않습니다.
 public class Dancer {
+
 
     // 속성 (필드)
     String dancerName; // 댄서 이름
@@ -44,8 +47,8 @@ public class Dancer {
 
     // 기능 (메서드) : static을 붙이지 마세요
     // 춤추는 기능
-    void dance() {
-        System.out.println(genre + "춤을 열정적으로 춥니다.");
+    void dance(Dancer this) {
+        System.out.println(this.genre + "춤을 열정적으로 춥니다.");
     }
 
     // 스트레칭을 하는 기능
